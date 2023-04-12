@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "firebase deploy --only hosting"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "firebase": "^9.18.0",
