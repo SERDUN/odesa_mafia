@@ -1,4 +1,8 @@
 name: MyGithubActions
+env:
+  APPLICATION_NAME : "ODESA MAFIA"
+  PACKAGE_NAME.    : "path ${{github.sha}}"
+
 on:
   push:
     branches: 
@@ -11,6 +15,15 @@ jobs:
     steps:
       - name: Print Hello
         run : echo "Hello world"
+           
+      - name: Run script
+        run : |
+          echo "Message 1"
+          echo "Message 2"
+          echo "Message 3"
+          echo "Message: ${{env.APPLICATION_NAME}}"
+
+        
 
 
   deploy2: 
