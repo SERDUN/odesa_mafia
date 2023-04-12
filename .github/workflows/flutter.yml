@@ -2,7 +2,7 @@ name: FlutterAction
 on:
   push:
     branches:
-      - master;
+      - master
 
 jobs:
   deploy:
