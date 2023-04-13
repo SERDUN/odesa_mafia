@@ -42,3 +42,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+.github/workflows/main.yml
+.github/workflows/flutter.yml
+.github/workflows/firebase-hosting-pull-request.yml
